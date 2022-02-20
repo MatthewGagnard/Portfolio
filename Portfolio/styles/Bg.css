@@ -1,0 +1,42 @@
+       html{
+        scroll-behavior: smooth;
+       }
+
+       .body1{
+            transition: background-image 1s ease;
+            background:url('../assets/Tree.jpg') no-repeat center center fixed;
+            background-size: cover; 
+        }
+
+        .body2{
+            transition: background-image 1s ease;
+            background:url('../assets/Wooden.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+        }
+         .body3{
+            transition: background-image 1s ease;
+            background:url('../assets/Computer.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+        }
+
+        .body4{
+            transition: background-image 1s ease;
+            background:url('../assets/Mountains.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+        }
+
+        .body5{
+            transition: background-image 1s ease;
+            background:url('../assets/Bluey.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+        }
+
+.panel {
+  /* min height incase content is higher than window height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  position:relative;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
