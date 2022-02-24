@@ -11,7 +11,7 @@
 	</head>
 
 	<body class='body1 bg-dark text-white'>
-			<!-- <img id='background' class='position-absolute w-100 h-100' src='assets/bg-image.png'> -->
+									<!-- Intro Section --->
 			<div class="panel text-warning h-100 flex-column container justify-content-center">
 				<div class='panel bg-dark w-50 h-25 flex-column container justify-content-center border border-secondary rounded'>
 					<h1>Matthew Gagnard</h1>
@@ -28,7 +28,7 @@
 						<i class='bi bi-eye-fill'></i> Blog
 						</button></a>
 						
-						<a href='#projects'>
+						<a href='#Projects'>
 						<button class='btn btn-outline-light' type="button">
 						<i class='bi bi-display'></i> Projects
 						</button></a>
@@ -42,35 +42,303 @@
 				</div>
 			</div>
 			
-		
-				<div id='about' class="panel text-warning h-100 flex-column container justify-content-center">
-					<div class='panel bg-dark w-50 h-50 flex-column container justify-content-center border border-secondary rounded'>
-						<p>About me</p>
+											<!-- About Me Section -->
+				<div id='about' class="panel text-dark h-100 flex-column container justify-content-center">
+					<div class='panel about card mb-3 border border-5 border-secondary h-75 w-75 container'>
+						<h2 class='card-title text-warning'>About me:</h2>
+						<img class='card-img-top rounded border border-4 border-secondary h-50 w-75' src='Assets/headshot.jpg' alt='card image cap'>
+						<div class='card-body row'>
+							<div class="col border bg-dark text-warning">
+								<h5> Education: </h5>
+								<ul>
+								<li> Computer Science, B.S. University New Orleans </li>
+								</ul>
+								<h6> Prgrm. Languages</h6>
+								<ul>
+								<li>Java: Proficient</li>
+								<li>HTML/Javascript: Familiar</li>
+								<li>SQL: Familiar</li>
+								<li>MASM: Familiar</li>      
+								</ul>
+							</div>
+							<div class='col border bg-dark text-warning'>
+								<h2> Experience: </h2>
+								<ul>
+								<li> Military, Staff Sergeant - 8 Years </li>
+								<li> Retail, Floor Work/Management - 5 Years </li>
+								</ul>
+							</div>
+						<p class='card-text border bg-dark text-warning'> 	My name is Matthew Gagnard. I am married to my wife Rachel, and we have one daughter together, Evelyn. 
+						I am a recent grad of UNO with a bachelors in Computer Science. I enjoy playing piano, fighting games, and spending time with family. As far as coding, I have in interest in back-end Web Dev, and have been experimenting with Webcrawling/scraping projects!</p>
+						<div class='panel'>
+						<a href='#blog'>
+						<button class='btn btn-dark' type="button">
+						<i class='bi bi-eye-fill'></i> Blog
+						</button></a>
+						<a href='#Projects'>
+						<button class='btn btn-dark' type="button">
+						<i class='bi bi-display'></i> Projects
+						</button></a>
+						<a href='#Contact'>
+						<button class='btn btn-dark' type="button">
+						<i class='bi bi-envelope'></i> Contact
+						</button></a>
+					</div>
+					</div>
+						<p></p>
 					</div>
 				</div>
 			
 			
 
-				<div id='blog' class="panel text-warning h-100 flex-column container justify-content-center">
-					<div class='panel bg-dark w-50 h-50 flex-column container justify-content-center border border-secondary rounded'>
-						<p>Blog</p>
+												<!-- Blog Section -->
+					<div id='blog' class='h-100 carousel slide container panel' data-bs-ride='carousel'>
+					
+						<!-- Carousel Inside -->
+						<div class='carousel-inner border border-secondary rounded'>
+							
+							<div id='slide-1' class='carousel-item active'>
+								<a href='blogs/blog1.html'>
+								<img class='d-block w-100' href='blogs/blog1.html' src='assets/Blog.jpeg' alt='First slide'>
+								</a>
+								<div class='carousel-caption'>
+									<h5> Blog Post 1 </h5>
+									<p>Difficulties of finding time to perfecting your craft.</p>
+									<div class='panel'>
+						
+						<a href='#about'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-person-badge-fill'></i> About
+						</button></a>
+						
+						<a href='#Projects'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-display'></i> Projects
+						</button></a>
+						
+						<a href="#Contact">
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-envelope'></i> Contact
+						</button></a>
+					
 					</div>
-				</div>
-			
-			
-			
-				<div id='projects' class="panel text-warning h-100 flex-column container justify-content-center">
-					<div class='panel bg-dark w-50 h-50 flex-column container justify-content-center border border-secondary rounded'>
-						<p>Projects</p>
+								</div>
+							</div>
+							
+							<div id='slide-2' class='carousel-item'>
+								<a href='blogs/blog2.html'>
+								<img class='d-block w-100' src='assets/Blog2.jpeg' alt='Second slide'>
+								</a>
+								<div class='carousel-caption'>
+									<h5> Blog Post 2 </h5>
+									<p>Dungeons and Dragons: Learning to collaborate as a team</p>
+						<div class='panel'>
+						
+						<a href='#about'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-person-badge-fill'></i> About
+						</button></a>
+						
+						<a href='#Projects'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-display'></i> Projects
+						</button></a>
+						
+						<a href="#Contact">
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-envelope'></i> Contact
+						</button></a>
+					
 					</div>
+								</div>
+							</div>
+						</div>
+
+					
+						<!-- carousel controls -->
+					<a class='carousel-control-prev' href='#blog' role='button'data-bs-slide='prev'>
+					 <i class="carousel-control-prev-icon" aria-hidden="true"></i>
+    				</a>
+    			 <a class="carousel-control-next" href="#blog" role="button" data-bs-slide="next">
+    			<i class="carousel-control-next-icon" aria-hidden="true"></i>
+  				</a>
 				</div>
 			
 
-				<div id='Contact' class="panel text-warning h-100 flex-column container justify-content-center">
-					<div class='panel bg-dark w-50 h-50 flex-column container justify-content-center border border-secondary rounded'>
-						<p>Contact</p>
+													<!-- Projects Section -->
+				<div id='Projects' class='h-100 carousel slide container panel' data-bs-ride='carousel'>
+						<!-- Carousel Inside -->
+						<div class='carousel-inner rounded'>
+							<ol class='carousel-indicators'>
+						<li data-bs-target='#Projects' data-bs-slide-to='0' class="active"></li> 
+						<li data-bs-target='#Projects' data-bs-slide-to='1'></li> 
+						</ol> 
+							
+							<div id='slide-1' class='carousel-item active w-100'>
+								<a href='https://github.com/MatthewGagnard/Text-Based-game'>
+								<img class='image-fluid w-100' href='blogs/blog1.html' src='assets/HTMLGame.png' alt='First slide'>
+								</a>
+								<div class='carousel-caption'>
+									<h5> <mark>Text Based Game</mark> </h5>
+									<p> <mark>A Murder Mystery Game made in HTML/Javascrip</mark></p>
+									<div class='panel'>
+						
+						<a href='#about'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-person-badge-fill'></i> About
+						</button></a>
+						
+						<a href='#blog'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-eye-fill'></i> Blog
+						</button></a>
+						
+						<a href="#Contact">
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-envelope'></i> Contact
+						</button></a>
+					
 					</div>
+								</div>
+							</div>
+							
+							<div id='slide-2' class='carousel-item w-100'>
+								<a href='https://github.com/MatthewGagnard/Selenium_Scrapper'>
+								<img class='image-fluid w-100' src='assets/GameBG.jpg' alt='Second slide'>
+								</a>
+								<div class='carousel-caption'>
+									<h5 class='text-dark'><mark> Selenium Webscraper</mark> </h5>
+									<p><mark>Uses Selenium webdriver to access Amazon and find cheapest specified product</mark></p>
+						<div class='panel'>
+						
+						<a href='#about'>
+						<button class='btn btn-outline-dark' type="button">
+						<i class='bi bi-person-badge-fill'></i> About
+						</button></a>
+						
+						<a href='#blog'>
+						<button class='btn btn-outline-dark' type="button">
+						<i class='bi bi-eye-fill'></i> Blog
+						</button></a>
+						
+						<a href="#Contact">
+						<button class='btn btn-outline-dark' type="button">
+						<i class='bi bi-envelope'></i> Contact
+						</button></a>
+					
+					</div>
+								</div>
+							</div>
+						</div>
+					
+
+					
+						<!-- carousel controls -->
+					<a class='carousel-control-prev' href='#Projects' role='button'data-bs-slide='prev'>
+					 <i class="carousel-control-prev-icon" aria-hidden="true"></i>
+    				</a>
+    			 <a class="carousel-control-next" href="#Projects" role="button" data-bs-slide="next">
+    			<i class="carousel-control-next-icon" aria-hidden="true"></i>
+  				</a>
 				</div>
+			
+
+				
+
+
+														<!-- Contact Section -->
+	<div id='Contact' class="panel text-warning h-100 flex-column container justify-content-center">
+       	<div class='bg-dark w-50 h-50 border border-5 border-secondary rounded panel'>	
+       		<div class='text-center'>
+       		<h2> Contact Me! </h2>				
+       										<!--Contact Form -->
+       <div class='row panel'>
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+            
+        </div>
+       
+
+       </div>
+  <div class='panel'>
+						
+						<a href='#about'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-person-badge-fill'></i> About
+						</button></a>
+						
+						<a href='#blog'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-eye-fill'></i> Blog
+						</button></a>
+						
+						<a href='#Projects'>
+						<button class='btn btn-outline-light' type="button">
+						<i class='bi bi-display'></i> Projects
+						</button></a>
+					
+				</div>
+	</div>
+
+
+</div>
+
 		
 
 
